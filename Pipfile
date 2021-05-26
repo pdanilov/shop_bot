@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiogram = "*"
+aioredis = "*"
+asyncpg = "*"
+django = "*"
+envparse = "*"
+loguru = "*"
+psycopg2-binary = "*"
+pyyaml = "*"
+uwsgi = "*"
+
+[dev-packages]
+black = "==21.5b1"
+isort = "==5.8.0"
+flake8 = "==3.9.2"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,79 @@
+- model: shop_data.item
+  pk: 1
+  fields:
+    title: Апельсин
+    thumb_url: https://edaplus.info/food_pictures/big/orange-pulp.jpg
+    price: 1
+    description: Спелый марокканский апельсин
+
+- model: shop_data.item
+  pk: 2
+  fields:
+    title: Банан
+    thumb_url: https://nashzelenyimir.ru/wp-content/uploads/2016/07/Банан-фото.jpg
+    price: 1
+    description: Эквадорский банан
+
+- model: shop_data.item
+  pk: 3
+  fields:
+    title: Беспроводные наушники
+    thumb_url: https://static.beeline.ru/shop/media/goods/334x434/13807f5a-8d80-4647-a1d1-d91edf567b26.png
+    price: 30
+    description: Наушники JBL Tune 500 белые
+
+- model: shop_data.item
+  pk: 4
+  fields:
+    title: Бумага
+    thumb_url: https://shop.djournal.com.ua/blog/wp-content/uploads/2016/08/paper-v2-1-1280x846.jpg
+    price: 1
+    description: Лист белой бумаги
+
+- model: shop_data.item
+  pk: 5
+  fields:
+    title: Автомобиль Ferrari
+    thumb_url: https://www.ferrarimoscow.ru/ferrarimoscow/wp-content/uploads/2020/04/4.png
+    price: 500000
+    description: Ferrari F8 Tributo
+
+- model: shop_data.item
+  pk: 6
+  fields:
+    title: Кроссовки New Balance
+    thumb_url: https://newbalance.ru/upload/iblock/822/ml574egk_nb_02_i.jpg
+    price: 150
+    description: New Balance 574
+
+- model: shop_data.item
+  pk: 7
+  fields:
+    title: Бахилы одноразовые
+    thumb_url: https://www.tdsnail.ru/images/detailed/6/60_jziv-pp.jpg
+    price: 2
+    description: Комплект одноразовых бахил (50 пар)
+
+- model: shop_data.item
+  pk: 8
+  fields:
+    title: iPhone 12 Pro Max
+    thumb_url: https://up-to.ru/upload/iblock/cc4/cc4b289f11378d07e3054ed40dab783b.jpg
+    price: 1000
+    description: Самый дорогой айфон на сегодня
+
+- model: shop_data.item
+  pk: 9
+  fields:
+    title: Билет туда-обратно
+    thumb_url: https://www.clipular.com/c/6243079397048320.png?k=NRrn4MaocWOfN00Nnf5O7l7dk58
+    price: 100
+    description: Путешествие Саратов-Москва-Саратов
+
+- model: shop_data.item
+  pk: 10
+  fields:
+    title: Шоколадный батончик Snickers
+    thumb_url: https://amwine.ru/upload/iblock/6a0/6a08e068afcb289708eec67b4005a3f2.png
+    price: 1
+    description: Очень вкусно
