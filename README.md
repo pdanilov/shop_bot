@@ -21,4 +21,4 @@ Then simply run:
 ```
 docker-compose up
 ```
-
+You'll probably have to run this command with sudo privileges.
