@@ -1,9 +1,9 @@
 FROM python:3.9.5 AS base
 WORKDIR /code
-COPY Pipfile* .
+COPY Pipfile* ./
 RUN pip install pipenv
 RUN pipenv install --system --deploy
-COPY . .
+COPY . ./
 RUN chmod +x manage.py
 ENTRYPOINT ["./manage.py"]
 CMD ["runbot"]
