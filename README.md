@@ -3,8 +3,8 @@ Admins can add items to the shop via admin panel.
 
 First, you need to create .env file from given .env.dist template <br/>
 <b>ADMINS</b> is a one or many telegram ids of admins who are allowed to use admin panel.
-If there are more than one admin, ids should be separated by space symbol
-and quoted like <b>"id1 id2"</b> to support bash syntax <br/>
+If there are more than one admin, ids should be separated by comma,
+like <b>id1,id2</b> <br/>
 <b>BOT_TOKEN</b> is a token for your bot, it can be obtained from
 [@BotFather](https://t.me/BotFather) <br/>
 <b>PROVIDER_TOKEN</b> is a token for a payment system to use in bot.

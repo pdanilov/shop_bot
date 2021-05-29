@@ -17,7 +17,7 @@ from envparse import env
 
 # Environment parameters
 APP_HOST = env.str("APP_HOST")
-ADMINS = list(map(int, env.str("ADMINS").split(" ")))
+ADMINS = list(map(int, env.str("ADMINS").split(",")))
 BOT_TOKEN = env.str("BOT_TOKEN")
 PROVIDER_TOKEN = env.str("PROVIDER_TOKEN")
 DJANGO_PORT = env.str("DJANGO_PORT")
