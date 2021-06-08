@@ -40,7 +40,7 @@ def update_budget(user_id: int, delta: Optional[Union[int, float]] = 10):
 def item_search(text: str):
     results = Item.objects.order_by("title")
     if len(text) >= 2:
-        results = results.filter(name__icontains=text)
+        results = results.filter(title__icontains=text)
     return [*results]
 
 
